@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\Metliax.WASM.Client.csproj" />
+    <ProjectReference Include="..\Shared\Metliax.WASM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
